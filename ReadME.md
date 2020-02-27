@@ -1,2 +1,2 @@
 # Company Theme
-"Auther: Abdallah Mohamed"
+Auther: Abdallah Mohamed
