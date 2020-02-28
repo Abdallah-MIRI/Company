@@ -1,0 +1,404 @@
+/* 
+    Theme: Company Psd;
+    author: Abdallah Mohamed;
+    version: 1.0;
+*/
+
+
+
+
+/* ------------------- Header ------------------- */
+.header .icont-color {
+    color: #d0a773;
+}
+
+.header .navigation {
+    padding: 0;
+	background-color: #5d5d5d;
+}
+
+.header .navigation .navbar-brand {
+    color: #c19864;
+    padding: 11px 0;
+    font-size: x-large;
+}
+
+.header .navigation .navbar-toggler {
+    color: #fff;
+    font-size: 27px;
+    border-color: transparent;
+}
+
+.header .navigation ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.header .navigation .li-link {
+    color: #fff;
+    display: block;
+    padding: 25px 22px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.header .navigation .li-link:hover {
+    color: #ae8c2e;
+}
+
+.header .navigation .active {
+	color: #c19864;
+	border-bottom: 2px solid #ae8c2e;
+}
+
+.header .carousel-caption {
+    bottom: 45%;
+}
+
+.header .carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #9e9e9e;
+}
+
+.header .carousel-indicators .active {
+    background-color: #c19864;
+}
+
+.header .carousel-item {
+    height: 850px;
+}
+
+.header .img-item-first {
+    background: linear-gradient(rgba(2, 3, 2, 0.55),rgba(0, 0, 0, 0.52)), url('/iamges/bench.jpg') center / cover;
+}
+
+.header .img-item-second {
+    background: linear-gradient(rgba(2, 3, 2, 0.55),rgba(0, 0, 0, 0.52)), url('/iamges/image-pro.jpg') center / cover;
+}
+
+.header .img-item-third {
+    background: linear-gradient(rgba(2, 3, 2, 0.55),rgba(0, 0, 0, 0.52)), url('/iamges/sport.png') center / cover;
+}
+
+.header .text-p {
+    font-size: 28px;
+    color: #c2c2c3;
+}
+
+.header .text-h {
+    font-size: 60px;
+}
+
+.header .btn-custom {
+    margin-top: 10px;
+    padding: 8px 15px;
+    color: #fff;
+    border-radius: 0;
+    background-color: #c19864;
+}
+
+.header .btn-custom:hover {
+    color: #fff;
+    background-color: #c19964ab;
+}
+/* End Header */
+
+
+
+
+/* ------------------- Business ------------------- */
+.business .information {
+    padding: 75px 0;
+    max-width: 548px;
+    margin: 0 auto;
+}
+
+.business .information h3 {
+    font-size: 23px;
+    letter-spacing: 1.3px;
+    margin-bottom: 50px;
+}
+
+.business .information h3::after {
+    content: '';
+    width: 90px;
+    height: 1px;
+    background-color: #c19864;
+    position: absolute;
+    left: 0;
+    margin-top: 52px;
+}
+
+.business .information p {
+    font-size: 13.4px;
+}
+
+.business .information .btn-read {
+    color: #c19864;
+    padding: 0;
+}
+
+.business .col-lg-6:nth-last-of-type(1) {
+    padding: 0;
+}
+/* End Business */
+
+
+
+
+/* ------------------- Testimonials ------------------- */
+.testimonials {
+    padding: 80px 0;
+    background-color: #f9f4f0;
+}
+
+.testimonials .icon {
+    margin-top: 50px;
+}
+
+.testimonials h4 {
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.testimonials p {
+    font-size:14px;
+}
+
+.testimonials .backg-icon {
+    color: #e9ecef;
+    font-size: 80px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #c19864;
+}
+/* End Testimonials */
+
+
+
+
+/* ------------------- Projects ------------------- */
+.projects {
+    padding: 60px 0;
+    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url('/iamges/replace-image.png') center / cover;
+}
+
+.projects h3 {
+    font-size: 25px;
+    margin-bottom: 60px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.projects p:nth-of-type(1) {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0;
+}
+/* End Projects */
+
+
+
+
+/* ------------------- Our Team ------------------- */
+.our-team {
+    padding: 30px 0;
+}
+
+.our-team h3 {
+    margin-bottom: 60px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.our-team .team {
+    margin-bottom: 20px;
+}
+
+.our-team .team h4 {
+    margin: 12px 0 6px 0;
+    font-size: 21px;
+}
+
+.our-team .team .job {
+    color: #6c757d;
+    font-size: 13px;
+}
+
+.our-team .team p,
+.our-team .team span {
+    font-size: 14px;
+}
+
+.our-team .team p {
+    margin: 7px 0;
+}
+
+.our-team .team span {
+    color: #c19864;
+}
+/* End Our Team */
+
+
+
+
+/* ------------------- supporters ------------------- */
+.supporters {
+    margin: 60px 0 140px 0;
+}
+/* End supporters */
+
+
+
+
+/* ------------------- Customer reviews ------------------- */
+.customer-reviews {
+    background-color: #f6f0e8;
+}
+
+.customer-reviews .client {
+    padding: 70px 0;
+}
+
+.customer-reviews .client h3 {
+    margin-bottom: 60px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.customer-reviews .client .avatar {
+    max-width: 150px;
+    margin: 0 0px 0 auto;
+}
+
+.customer-reviews .client .avatar h5 {
+    font-size: 16px;
+    margin-top: 3px;
+}
+
+.customer-reviews .client h4 {
+    font-size: 15px;
+    font-weight: 700;
+} 
+
+.customer-reviews .client .icont-star,
+.customer-reviews .client p {
+    font-size: 13px;
+}
+
+.customer-reviews .client .icon-star {
+    color: #ffc107;
+}
+/* End Customer reviews */
+
+
+
+
+/* ------------------- Footer ------------------- */
+.footer {
+    color: #ccc;
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url('/iamges/background-footer.png') center / cover;
+}
+
+.footer .title-blogs,
+.footer .title-story {
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.footer .row:nth-last-of-type(2) {
+    padding: 60px 0;
+}
+
+.footer .about-us p {
+    margin: 30px 0;
+    font-size: 15px;
+}
+
+.footer .about-us .followers > span {
+    color: #c19864;
+    word-spacing: 3px;
+    padding-bottom: 14px;
+    display: block;
+    border-bottom: 1px solid #63615f;
+}
+
+.footer .about-us .followers .icon-follow-us {
+    padding: 14px 0 24px 0;
+}
+
+.footer .about-us .followers .icon-follow-us .m-icon-follow {
+    margin: 0 6px;
+    color: #c19864;
+}
+
+.footer .about-us .form {
+    display: flex;
+}
+
+.footer .about-us .form input[type="email"] {
+    border: 0;
+    padding: 8px 12px 8px 11px;
+}
+
+.footer .about-us .form input[type="submit"] {
+    border: 0;
+    background-color: #c19864;
+    color: #fff;
+    padding: 0 30px;
+}
+
+.footer .blogs .content {
+    margin-bottom: 7px;
+}
+
+.footer .blogs .content .col-3 {
+    padding-right: 0;
+}
+
+.footer .blogs .content p {
+    margin-bottom: 3px;
+    font-size: 14px;
+    color: #adb5bd;
+}
+
+.footer .blogs .content span {
+    font-size: 13px;
+    color: #c19864;
+}
+
+.footer .copyright {
+    border-top: 1px solid #63615f;
+}
+/* End Footer */
+
+
+
+
+/* ------------------- Response Mobile ------------------- */
+@media (max-width: 992px) {
+
+    /* Testimonials */
+    .testimonials p {
+        font-size: 14px;
+        max-width: 400px;
+        margin: auto;
+    }
+
+    /* Blogs and Story */
+    .footer .blogs,
+    .footer .story {
+        margin-top: 60px;
+    }
+
+    .footer .blogs h4,
+    .footer .story h4 {
+        font-size: 30px;
+    }
+
+}
+/* End Response Mobile */
